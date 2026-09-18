@@ -527,9 +527,3 @@ with st.expander("Source, cleaning, and limitations"):
         """,
         unsafe_allow_html=True,
     )
-
-with st.expander("AI use disclosure"):
-    st.write(
-        "ChatGPT assisted with Streamlit syntax, layout structure, and interactive component implementation. "
-        "I reviewed and revised the logic, wording, and final application behavior."
-    )
